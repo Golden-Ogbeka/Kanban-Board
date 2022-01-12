@@ -27,14 +27,16 @@ export default function KanbanBoard() {
 	};
 
 	const addTask = () => {
-		setTasks([
-			...tasks,
-			{
-				name: taskInput,
-				stage: 0,
-			},
-		]);
-		setTaskInput('');
+		if (taskInput !== '') {
+			setTasks([
+				...tasks,
+				{
+					name: taskInput,
+					stage: 0,
+				},
+			]);
+			setTaskInput('');
+		}
 	};
 
 	const promoteTask = (task) => {
