@@ -4,8 +4,8 @@ import './index.css';
 export default function KanbanBoard() {
 	// Each task is uniquely identified by its name.
 	const [tasks, setTasks] = React.useState([
-		{ name: '1', stage: 0 },
-		{ name: '2', stage: 0 },
+		// { name: '1', stage: 0 },
+		// { name: '2', stage: 0 },
 	]);
 
 	const stagesNames = ['Backlog', 'To Do', 'Ongoing', 'Done'];
