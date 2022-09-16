@@ -1,6 +1,6 @@
 # Kanban Board
 
-## Environment 
+## Environment
 
 - React Version: 16.13.1
 - Node Version: ^12.18.3
@@ -8,7 +8,7 @@
 
 ## Application Demo:
 
-https://kanban-board-golden-ogbeka.vercel.app/
+[https://kanban-board-golden-ogbeka.vercel.app/](https://kanban-board-golden-ogbeka.vercel.app/)
 
 ## Application Functionalities
 
@@ -19,26 +19,27 @@ https://kanban-board-golden-ogbeka.vercel.app/
 - If 'Create Task' button is clicked with input being empty, nothing should happen.
 
 - In every individual stage, the tasks are rendered as a list `<ul>` where each task is a single list item `<li>` which displays the name of the task.
-    
 - Each task list item has 3 icon buttons at the right -
-    1. Back button - This moves the task to the previous stage in sequence, if any. This button is disabled if the task is in the first stage.
-    2. Forward button - This moves the task to the next stage in sequence, if any. This button is disabled if the task is in the last stage.
-    3. Delete button - This removes the task from the board.
+
+  1. Back button - This moves the task to the previous stage in sequence, if any. This button is disabled if the task is in the first stage.
+  2. Forward button - This moves the task to the next stage in sequence, if any. This button is disabled if the task is in the last stage.
+  3. Delete button - This removes the task from the board.
 
 - Each task has 2 properties -
-    1. name - name of task. This is the unique identification for every task. [STRING] 
-    2. stage - stage of task [NUMBER] (0 represents Backlog stage, 1 represents To Do stage, 2 represents Ongoing stage, 3 represents Done stage).
+  1. name - name of task. This is the unique identification for every task. [STRING]
+  2. stage - stage of task [NUMBER] (0 represents Backlog stage, 1 represents To Do stage, 2 represents Ongoing stage, 3 represents Done stage).
 
 **Read Only Files**
+
 - src/App.test.js
 
 **Commands**
-- install: 
-npm install
 
-- run: 
-npm start
+- install:
+  npm install
 
-- test: 
- npm test
+- run:
+  npm start
 
+- test:
+  npm test
